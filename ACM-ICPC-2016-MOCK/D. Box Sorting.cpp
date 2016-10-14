@@ -9,7 +9,7 @@ int main() {
 	cin >> t;
 	while(t--){
 	  cin >> n;
-      int boxes[n];
+      	  int boxes[n];
    	  map<int, int> box;
 	  max = 0;
 	  for (int i = 0; i < n; ++i){
@@ -18,7 +18,7 @@ int main() {
     	    if(max < box[boxes[i]])
     	      max = box[boxes[i]];
 
-	    }
+	   }
 	    cout <<"Case "<< j++ <<": ";
 	   
 	          cout << max << "\n";
